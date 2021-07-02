@@ -11,16 +11,21 @@
     <header class="header">
         <nav>
             <ul>
-                <li><a href="">Gmail</a></li>
-                <li><a href="">Imágenes</a></li>
-                <li><img src="./iconos/menu-de-puntos.svg" alt="menu puntos"></li>
-                <li><button>Acceder</button></li>
+                <li class="item--gmail"><a href="">Gmail</a></li>
+                <li class="item--imagenes"><a href="">Imágenes</a></li>
+                <li class="item--iconomenu"><img src="./iconos/menu-de-puntos.svg" alt="menu puntos"></li>
+                <li class="item--button"><button>Acceder</button></li>
             </ul>
         </nav>
     </header>
     <main class="content">
         <img src="./imgs/googlelogo_color_272x92dp.png" alt="Logo principal google">
-        <input type="text">
+        <div class="content__input">
+            <img src="./iconos/lupa.svg" alt="">
+            <input type="text">
+            <img src="./iconos/forma-de-microfono-negro.svg" alt="">
+        </div>
+        
         <div class="content__buttons">
             <button>Buscar con Google</button>
             <button>Me siento con suerte</button>
