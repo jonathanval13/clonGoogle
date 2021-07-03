@@ -38,7 +38,7 @@ ul{
     list-style: none;
 }
 .header nav ul{
-    height: 100%;
+    height: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -104,7 +104,9 @@ ul{
     width: 2rem;
     margin: 0 0.5rem;
 }
-
+.content__input > img{
+    cursor: pointer;
+}
 .content__buttons button{
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
